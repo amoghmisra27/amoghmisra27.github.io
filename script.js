@@ -1,7 +1,7 @@
 // 1. create a new XMLHttpRequest object -- an object like any other!
 var myRequest = new XMLHttpRequest();
 // 2. open the request and pass the HTTP method name and the resource as parameters
-myRequest.open('GET', 'index.html');
+myRequest.open('GET', 'https://amoghmisra27.github.io/index.html');
 myRequest.responseText = "Happy 11 Months Babe!";
 // 3. write a function that runs anytime the state of the AJAX request changes
 myRequest.onreadystatechange = function () { 
